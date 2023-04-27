@@ -12,6 +12,19 @@
  */
 export default [
   {
+    path: '/saverity',
+    name: 'saverity',
+    icon: 'icon-saverity-black',
+    routes: [
+      {
+        path: 'map',
+        name: 'map',
+        icon: 'icon-map',
+        component: './Saverity/Map',
+      },
+    ],
+  },
+  {
     path: '/user',
     layout: false,
     routes: [

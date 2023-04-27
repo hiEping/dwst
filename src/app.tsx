@@ -51,6 +51,7 @@ export async function getInitialState(): Promise<{
 // ProLayout 支持的api https://procomponents.ant.design/components/layout
 export const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) => {
   return {
+    iconfontUrl: '//at.alicdn.com/t/c/font_2689913_qlphmf45oy.js',
     actionsRender: () => [<Question key="doc" />, <SelectLang key="SelectLang" />],
     avatarProps: {
       src: initialState?.currentUser?.avatar,
