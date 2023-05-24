@@ -12,6 +12,12 @@
  */
 export default [
   {
+    path: '/welcome',
+    name: 'welcome',
+    icon: 'smile',
+    component: './Welcome',
+  },
+  {
     path: '/saverity',
     name: 'saverity',
     icon: 'icon-saverity-black',
@@ -36,12 +42,6 @@ export default [
     ],
   },
   {
-    path: '/welcome',
-    name: 'welcome',
-    icon: 'smile',
-    component: './Welcome',
-  },
-  {
     path: '/admin',
     name: 'admin',
     icon: 'crown',
@@ -55,6 +55,11 @@ export default [
         path: '/admin/sub-page',
         name: 'sub-page',
         component: './Admin',
+      },
+      {
+        path: '/admin/calibration',
+        name: 'calibration',
+        component: './Calibration',
       },
     ],
   },
