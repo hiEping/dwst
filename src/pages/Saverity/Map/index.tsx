@@ -1,10 +1,12 @@
 import { PageContainer } from '@ant-design/pro-components';
+import React from 'react';
 
-export default () => {
-  const Map = (
+const Map: React.FC = () => {
+  return (
     <PageContainer title={'安全态势地图'}>
       <div>态势地图页面</div>
     </PageContainer>
   );
-  return Map;
 };
+
+export default Map;
