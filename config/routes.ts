@@ -28,6 +28,11 @@ export default [
         icon: 'icon-map',
         component: './Saverity/Map',
       },
+      {
+        path: 'hotmap',
+        name: 'hotmap',
+        component: './Saverity/Hotmap',
+      },
     ],
   },
   {
